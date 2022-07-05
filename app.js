@@ -15,9 +15,4 @@ app.use(cors())
 app.use('/', spaceCoinRouter)
 
 
-
-app.listen(PORT, () => {
-  console.log(`Server listening on ${PORT}`);
-});
-
 export default app;
