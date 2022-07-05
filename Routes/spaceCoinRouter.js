@@ -1,8 +1,7 @@
 import {Router} from 'express';
-const spaceCoinRouter = Router();
-
-
 import {getSpaceCoin, getFaqData}  from '../models/spaceCoinModels.js';
+
+const spaceCoinRouter = Router();
 
 spaceCoinRouter.get('/v1/spaceCoinDummyData', function(req, res){
 res.json(getSpaceCoin());
