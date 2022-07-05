@@ -30,4 +30,4 @@ let spaceCoin = [
     }
 ]
 
-export default spaceCoin;
+export {spaceCoinData};
