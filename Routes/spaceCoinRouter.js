@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import {getSpaceCoin, getFaqData}  from '../models/spaceCoinModels.js';
+import {getSpaceCoin, getFaqData}  from '../Models/spaceCoinModels.js';
 
 const spaceCoinRouter = Router();
 
