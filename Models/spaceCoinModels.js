@@ -1,4 +1,4 @@
-import {spaceCoinData} from "../libs/SpaceCoinDummyData.js";
+import spaceCoinData from "../libs/SpaceCoinDummyData.js";
 import faqData from "../libs/faqData.js";
 
 export function getSpaceCoin() {

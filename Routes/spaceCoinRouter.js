@@ -12,4 +12,4 @@ spaceCoinRouter.get('/v1/faqData', function(req, res) {
     res.json(getFaqData())
 })
 
-export {spaceCoinRouter}
+export default spaceCoinRouter
