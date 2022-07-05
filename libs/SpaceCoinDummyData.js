@@ -1,4 +1,4 @@
-let spaceCoin = [
+let spaceCoinData = [
     {
         Month: 'Month 1',
         Value: 15
