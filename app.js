@@ -1,5 +1,5 @@
 import express from 'express';
-import {spaceCoinRouter} from './Routes/spaceCoinRouter.js';
+import spaceCoinRouter from './Routes/spaceCoinRouter.js';
 import logger from 'morgan'
 import cors from 'cors'
 
